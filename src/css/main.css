@@ -35,6 +35,7 @@ html {
   font-family: "Roboto", sans-serif;
 }
 
+
 /* RE-USED CSS CLASSES */
 .container {
   position: relative;
@@ -46,7 +47,6 @@ html {
   font-weight: 900;
   text-transform: uppercase;
   text-align: center;
-  line-height: 100%;
 }
 
 .title__colored {
@@ -208,6 +208,7 @@ html {
   color: #4a4a4a;
 }
 
+
 /* 3-d SECTION */
 .info {
   /* min-height: 564px; */
@@ -246,6 +247,7 @@ html {
 .info__text.medium {
   font-weight: 500;
 }
+
 
 /* 4-th SECTION */
 .skills {
@@ -346,6 +348,7 @@ html {
   margin-top: 20px;
   font-size: 36px;
   color: #f9bf3b;
+  line-height: 100%;
 }
 
 .webinar__cta {
@@ -354,4 +357,36 @@ html {
   font-size: 23px;
   text-align: center;
   color: #efefef;
+}
+
+
+/* FOOTER */
+.footer {
+  background-color: #1a1a1a;
+  padding: 58px 0;
+}
+
+.footer__block {
+  max-width: 300px;
+
+  margin: 0 auto;
+  text-align: center;
+  color: #888;
+
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 150%;
+}
+
+.footer a {
+  text-decoration: none;
+  
+  color: #888;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 150%;
+}
+
+.footer .underlined {
+  text-decoration: underline;
 }
