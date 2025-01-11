@@ -46,6 +46,7 @@ html {
   font-weight: 900;
   text-transform: uppercase;
   text-align: center;
+  line-height: 100%;
 }
 
 .title__colored {
@@ -319,4 +320,38 @@ html {
 
 .present button {
   margin-top: 60px;
+}
+
+
+/* 6-th SECTION */
+.webinar {
+  /* min-height: 527px; */
+  background-color: #0f0b0b;
+  padding: 50px 0;
+}
+
+.webinar__img {
+  margin: 0 auto;
+  width: 500px;
+  height: 250px;
+  object-fit: cover;
+}
+
+.webinar .title__medium {
+  margin-top: 40px;
+  color: #fff;
+}
+
+.webinar__title {
+  margin-top: 20px;
+  font-size: 36px;
+  color: #f9bf3b;
+}
+
+.webinar__cta {
+  margin-top: 20px;
+  font-weight: 500;
+  font-size: 23px;
+  text-align: center;
+  color: #efefef;
 }
