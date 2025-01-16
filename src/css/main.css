@@ -243,10 +243,10 @@ html {
   font-size: 16px;
   text-align: right;
   color: #fff;
-}
 
-.info__text.medium {
-  font-weight: 500;
+  &.medium {
+    font-weight: 500;
+  }
 }
 
 
