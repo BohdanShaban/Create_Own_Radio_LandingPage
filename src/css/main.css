@@ -36,6 +36,14 @@ html {
 }
 
 
+/* CSS Variables (Custom Properties) #efefef;*/
+:root {
+  --yellow-color: #f9bf3b;
+  --white-color: #fff;
+  --light-white-color: #efefef;
+}
+
+
 /* RE-USED CSS CLASSES */
 .container {
   position: relative;
@@ -52,13 +60,13 @@ html {
 .title__colored {
   font-size: 41px;
   line-height: 100%;
-  color: #f9bf3b;
+  color: var(--yellow-color);
 }
 
 .title__big {
   font-size: 80px;
   line-height: 100%;
-  color: #fff;
+  color: var(--white-color);
 }
 
 .title__medium {
@@ -82,7 +90,7 @@ html {
   padding: 0 15px;
   border-radius: 4px;
   background: linear-gradient(0deg, #ff4d00 0%, #feb05d 100%);
-  color: #fff;
+  color: var(--white-color);
   text-align: center;
   text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.22);
   font-size: 21px;
@@ -98,7 +106,7 @@ html {
   margin: 0 auto;
   width: 220px;
   height: 7px;
-  background-color: #f9bf3b;
+  background-color: var(--yellow-color);
 }
 
 
@@ -131,7 +139,7 @@ html {
   font-size: 16px;
   text-transform: uppercase;
   text-align: center;
-  color: #fff;
+  color: var(--white-color);
 }
 
 .promo__text {
@@ -140,10 +148,10 @@ html {
   font-size: 21px;
   line-height: 133%;
   text-align: center;
-  color: #fff;
+  color: var(--white-color);
 
   span {
-    color: #f9bf3b;
+    color: var(--yellow-color);
     text-transform: uppercase;
   }
 }
@@ -154,7 +162,7 @@ html {
   font-size: 15px;
   text-transform: uppercase;
   text-align: center;
-  color: #fff;
+  color: var(--white-color);
 }
 
 .promo__more-img {
@@ -165,7 +173,7 @@ html {
 /* 2-nd SECTION */
 .intensive {
   /* min-height: 592px; */
-  background-color: #efefef;
+  background-color: var(--light-white-color);
   padding: 80px 0;
 
   h2 {
@@ -219,7 +227,7 @@ html {
 
 .info__title {
   font-size: 30px;
-  color: #f9bf3b;
+  color: var(--yellow-color);
   text-align: right;
 }
 
@@ -242,7 +250,7 @@ html {
   font-weight: 300;
   font-size: 16px;
   text-align: right;
-  color: #fff;
+  color: var(--white-color);
 
   &.medium {
     font-weight: 500;
@@ -258,7 +266,7 @@ html {
 
   .title__medium {
     font-weight: 400;
-    color: #efefef;
+    color: var(--light-white-color)
   }
 
   .yellow-divider {
@@ -285,7 +293,7 @@ html {
 
   width: 115px;
   height: 115px;
-  background: #f9bf3b;
+  background: var(--yellow-color);
   border-radius: 100%;
 }
 
@@ -298,14 +306,14 @@ html {
   font-weight: 300;
   font-size: 16px;
   text-align: center;
-  color: #efefef;
+  color: var(--light-white-color);
 }
 
 
 /* 5-th SECTION */
 .present {
   /* min-height: 613px; */
-  background-color: #efefef;
+  background-color: var(--light-white-color);
   padding: 80px 0;
 
   button {
@@ -336,7 +344,7 @@ html {
 
   .title__medium {
     margin-top: 40px;
-    color: #fff;
+    color: var(--white-color);
   }
 
 }
@@ -351,7 +359,7 @@ html {
 .webinar__title {
   margin-top: 20px;
   font-size: 36px;
-  color: #f9bf3b;
+  color: var(--yellow-color);
   line-height: 100%;
 }
 
@@ -360,7 +368,7 @@ html {
   font-weight: 500;
   font-size: 23px;
   text-align: center;
-  color: #efefef;
+  color: var(--light-white-color);
 }
 
 
